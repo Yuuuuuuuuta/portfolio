@@ -1,5 +1,7 @@
-<template>
-  <h1>This is Top page</h1>
+<template class="Top">
+  <v-parallax height="824">
+    <h1>This is Top page</h1>
+  </v-parallax>
 </template>
 <script>
 export default {
@@ -13,5 +15,8 @@ export default {
 </script>
 
 <style>
-
+.Top {
+  height: 85vh;
+  width: 100vw;
+}
 </style>
