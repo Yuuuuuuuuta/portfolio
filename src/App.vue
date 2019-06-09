@@ -3,7 +3,9 @@
     <!-- <div id="app" style="height: 100vh ; width: 100vw"> -->
       <myHeader></myHeader>
       <div id="main-contents">
+        <transition name="router-transition" enter-active-class="animated flip">
         <router-view/>
+        </transition>
       </div>
       <myFooter></myFooter>
     <!-- </div> -->
@@ -27,6 +29,8 @@ export default {
 }
 </script>
 <style>
+@import "https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.css";
+
 myHeader {
   position: fixed;
   bottom: 0;

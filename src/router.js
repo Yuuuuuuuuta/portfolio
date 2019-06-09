@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Top from '@/pages/Top'
+import Profile from '@/pages/Profile'
 
 Vue.use(Router)
 
@@ -13,11 +14,11 @@ export default new Router({
       name: 'Top',
       component: Top
     },
-    // {
-    //   path: '/Profile',
-    //   name: 'Profile',
-    //   component: Profile
-    // },
+    {
+      path: '/Profile',
+      name: 'Profile',
+      component: Profile
+    }
     // {
     //   path: '/Skill',
     //   name: 'Skill',

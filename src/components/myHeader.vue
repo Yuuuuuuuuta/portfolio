@@ -3,12 +3,12 @@
     <v-layout justify-center>
       <v-toolbar-items>
         <router-link to="/" class="link">
-          <v-btn>
+          <v-btn flat style="height: 5vh">
           Top
           </v-btn>
         </router-link>
         <router-link v-for="item in items" :key="item.to" :to="item.to" class="link">
-          <v-btn>
+          <v-btn flat style="height: 5vh">
           {{ item.to }}
           </v-btn>
         </router-link>

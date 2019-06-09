@@ -4,8 +4,8 @@
       <v-card-title>
         <strong></strong>
         <v-spacer></v-spacer>
-        <v-btn v-for="item in items" :key="item.icon" :href="item.link">
-          <v-icon>{{ item.icon }}</v-icon>
+        <v-btn v-for="item in items" :key="item.icon" :href="item.link" icon target="_blank" aria-label="links">
+          <v-icon size="24px">{{ item.icon }}</v-icon>
         </v-btn>
       </v-card-title>
     </v-card>
@@ -18,7 +18,7 @@ export default {
   data () {
     return {
       items: [
-        {icon: 'fab fa-twitter', link: ''},
+        {icon: 'fab fa-twitter', link: 'https://twitter.com/yuta_3284'},
         {icon: 'fab fa-instagram', link: ''},
         {icon: 'fab fa-facebook', link: ''}
       ]
