@@ -1,14 +1,14 @@
-<template class="Profile">
+<template class="Works">
   <v-parallax dark height="824">
     <v-layout align-center justify-center>
-      <h1 style="color:black">Profile</h1>
+      <h1 style="color:black">Works</h1>
     </v-layout>
   </v-parallax>
 </template>
 
 <script>
 export default {
-  name: 'Profile',
+  name: 'Works',
   data () {
     return {
       
@@ -18,7 +18,7 @@ export default {
 </script>
 
 <style>
-.Profile {
+.Works {
   height: 85vh;
   width: 100vw;
 }
