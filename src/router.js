@@ -4,7 +4,7 @@ import Top from '@/pages/Top'
 import Profile from '@/pages/Profile'
 import Skill from '@/pages/Skill'
 import Works from '@/pages/Works'
-// import Contact from '@/pages/Contact'
+import Contact from '@/pages/Contact'
 
 Vue.use(Router)
 
@@ -31,11 +31,11 @@ export default new Router({
       path: '/Works',
       name: 'Works',
       component: Works
-    }
-    // {
-    //   path: '/Contact',
-    //   name: 'Contact',
-    //   component: Contact
-    // },
+    },
+    {
+      path: '/Contact',
+      name: 'Contact',
+      component: Contact
+    },
   ]
 })
